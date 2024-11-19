@@ -22,11 +22,13 @@ Este proyecto es un **prototipo de portfolio personal** desarrollado utilizando 
 ## 📂 Estructura del Proyecto
 
 📂 Portfolio
+
 ├── 📁 images # Imágenes utilizadas en el portfolio
+
 ├── 📄 index.html # Archivo principal del proyecto
+
 ├── 📄 README.md # Archivo con información del proyecto
-├── 📁 css # Archivos CSS adicionales (opcional)
-└── 📁 js # Archivos JS para interactividad
+
 
 ## 📦 Requisitos Previos
 
