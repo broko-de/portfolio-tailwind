@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollador Web Full Stack.">
+    <title>Portfolio Fulanito</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="scroll-smooth bg-gradient-to-b from-slate-900 to-indigo-900 font-sans">
+    <header class="text-black ">
+        <nav id="menu"
+            class="w-full flex justify-center space-x-4 text-white font-bold fixed top-0 z-50 py-3 shadow-dark-mild bg-slate-900">
+            <a href="#expirience" class="hover:text-yellow-200">Experiencia</a>
+            <a href="#projects" class="hover:text-yellow-200">Proyectos</a>
+            <a href="#about" class="hover:text-yellow-200">Sobre mí</a>
+        </nav>
+    </header>
+    <main class="px-8">
+        <section class="section py-24 md:py-32 scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl">
+            <div class="w-full">
+                <div class="flex flex-col md:flex-row gap-5">
+                    <div class="w-full md:w-1/4 flex flex-col justify-around items-center gap-4 mb-4  ">
+                        <img class="rounded-full shadow-lg size-40" src="./images/foto-1.png"
+                            alt="Fulanito cosme">
+                    </div>
+                    <div class="w-full md:w-3/4 ">
+                        <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5x">
+                            Hola, soy Fulanito
+                        </h1>
+                        <p
+                            class="mt-6 text-xl text-white [&>strong]:text-yellow-200 [&>strong]:font-semibold">
+                            <strong>Estudiante avanzando en la carrera de analista programador</strong>. Especializado
+                            en el desarrollo web Full Stack, con +3 años de experiencia.
+                        </p>
+                        <nav class="flex flex-wrap gap-4 mt-8">
+                            <a href="mailto:fulanito@cosme.com" target="_blank" rel="noopener noreferrer" role="link"
+                                class="inline-flex items-center justify-center gap-2 px-4 py-1 transition border border-gray-600 rounded-full bg-gray-800 text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-100 hover:border-gray-300 hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M12 18h-7a2 2 0 0 1 -2 -2v-10a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7.5"></path>
+                                    <path d="M3 6l9 6l9 -6"></path>
+                                    <path d="M15 18h6"></path>
+                                    <path d="M18 15l3 3l-3 3"></path>
+                                </svg>
+                                Contactame
+                            </a>
+                            <a href="https://linkedin.com/in/fulanito" target="_blank" rel="noopener noreferrer"
+                                role="link"
+                                class="inline-flex items-center justify-center gap-2 px-4 py-1 transition border border-gray-600 rounded-full bg-gray-800 text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-100 hover:border-gray-300 hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z">
+                                    </path>
+                                    <path d="M8 11l0 5"></path>
+                                    <path d="M8 8l0 .01"></path>
+                                    <path d="M12 16l0 -5"></path>
+                                    <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                                </svg>
+                                LinkedIn
+                            </a>
+                            <a href="https://linkedin.com/in/fulanito" target="_blank" rel="noopener noreferrer"
+                                role="link"
+                                class="inline-flex items-center justify-center gap-2 px-4 py-1 transition border border-gray-600 rounded-full bg-gray-800 text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-100 hover:border-gray-300 hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                </svg>
+                                Github
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="expirience" data-aos="fade-right" class="py-2 mx-auto container lg:max-w-4xl md:max-w-2xl ">
+            <h2 class="text-4xl font-bold text-left text-white mb-8">Experiencia Laboral</h2>
+            <div class="container  mt-16 ">
+                <ol class="relative border-s border-gray-700">
+                    <li class="mb-10 ms-6">
+                        <span
+                            class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-blue-900">
+                            <svg class="w-3 h-3 text-blue-300" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="currentColor"
+                                class="icon icon-tabler icons-tabler-filled icon-tabler-briefcase-2">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M14 2a3 3 0 0 1 3 3v1h2a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3h2v-1a3 3 0 0 1 3 -3zm0 2h-4a1 1 0 0 0 -1 1v1h6v-1a1 1 0 0 0 -1 -1" />
+                            </svg>
+                        </span>
+                        <h3
+                            class="flex flex-col md:flex-row justify-start md:items-center mb-1 text-lg font-semibold text-white [&>strong]:text-yellow-200  [&>strong]:font-semibold md:[&>strong]:px-1 md:[&>span]:mx-2">
+                            Desarrollador Full Stack Jr. |
+                            <strong> Tech Solutions S.A.</strong>
+                            <span
+                                class="w-fit bg-blue-900 text-white text-sm font-medium me-2 px-2.5 py-0.5 rounded">
+                                Actualidad
+                            </span>
+                        </h3>
+                        <time class="block mb-2 text-sm font-medium leading-none text-white">
+                            Junio 2024
+                        </time>
+                        <p class="mb-4 text-base font-normal text-gray-300">
+                            Participación en el desarrollo y mantenimiento de aplicaciones web utilizando tecnologías
+                            como React, Node.js, y MongoDB.
+                            Implementación de soluciones backend para optimizar el rendimiento de servicios RESTful.
+                            Colaboración en equipos ágiles bajo la metodología Scrum para desarrollar módulos nuevos en
+                            sistemas empresariales.
+                        </p>
+
+                    </li>
+                    <li class="mb-10 ms-6">
+                        <span
+                            class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-blue-900">
+                            <svg class="w-3 h-3 text-blue-300" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="currentColor"
+                                class="icon icon-tabler icons-tabler-filled icon-tabler-briefcase-2">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M14 2a3 3 0 0 1 3 3v1h2a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3h2v-1a3 3 0 0 1 3 -3zm0 2h-4a1 1 0 0 0 -1 1v1h6v-1a1 1 0 0 0 -1 -1" />
+                            </svg>
+
+                        </span>
+                        <h3
+                            class="flex flex-col md:flex-row justify-start md:items-center mb-1 text-lg font-semibold text-white [&>strong]:text-yellow-200  [&>strong]:font-semibold md:[&>strong]:px-1 md:[&>span]:mx-2">
+                            Desarrollador Web Frontend |
+                            <strong> Creative Web Studio</strong>
+                        </h3>
+                        <time class="block mb-2 text-sm font-medium leading-none text-white">
+                            Enero 2023 - Mayo 2024
+                        </time>
+                        <p class="mb-4 text-base font-normal text-gray-300">
+                            Diseño y desarrollo de interfaces de usuario responsivas utilizando HTML5, CSS3, y
+                            JavaScript.
+                            Optimización de la experiencia de usuario (UX) mediante la implementación de estándares
+                            modernos de accesibilidad web.
+                            Colaboración con diseñadores gráficos para integrar elementos visuales en sitios web
+                            funcionales.
+                        </p>
+                    </li>
+                    <li class="mb-10 ms-6">
+                        <span
+                            class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-blue-900">
+                            <svg class="w-3 h-3 text-blue-300" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" fill="currentColor"
+                                class="icon icon-tabler icons-tabler-filled icon-tabler-briefcase-2">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M14 2a3 3 0 0 1 3 3v1h2a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3h2v-1a3 3 0 0 1 3 -3zm0 2h-4a1 1 0 0 0 -1 1v1h6v-1a1 1 0 0 0 -1 -1" />
+                            </svg>
+                        </span>
+                        <h3
+                            class="flex flex-col md:flex-row justify-start md:items-center mb-1 text-lg font-semibold text-white [&>strong]:text-yellow-200  [&>strong]:font-semibold md:[&>strong]:px-1 md:[&>span]:mx-2">
+                            Asistente en Desarrollo Web |
+                            <strong> Innovate IT</strong>
+                        </h3>
+                        <time class="block mb-2 text-sm font-medium leading-none text-white">
+                            Junio 2021 - Noviembre 2022
+                        </time>
+                        <p class="mb-4 text-base font-normal text-gray-300">
+                            Soporte en la creación de sitios web personalizados basados en WordPress y PHP.
+                            Modificación y personalización de temas y plugins para adaptarse a requerimientos
+                            específicos de los clientes.
+                            Mantenimiento técnico de sitios web, asegurando la seguridad y el cumplimiento de estándares
+                            de SEO.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="projects" data-aos="fade-down-right" class="py-20 mx-auto container lg:max-w-4xl md:max-w-2xl ">
+            <h3 class="text-3xl font-bold text-left mb-8 text-white">Mis Proyectos</h3>
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+
+                <div class="block rounded-lg shadow-secondary-1 bg-slate-900 ">
+                    <div class="relative overflow-hidden bg-cover bg-no-repeat">
+                        <img class="rounded-t-lg object-cover object-center w-full h-56 " src="./images/proyecto_1.webp"
+                            alt="Proyecto CAC Movies" />
+                        <a href="https://broko-de.github.io/cac-movies-integration/" target="_blank" role="link">
+                            <div
+                                class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="p-6 text-surface text-white">
+                        <h4 class="mb-2 text-2xl font-bold text-yellow-200">CAC Movies</h4>
+                        <p class="mb-4 text-base">
+                            Proyecto web integrador que consume una API de películas, diseñado con HTML, CSS y JavaScript. Presenta un diseño responsivo y funcional, destacando integración y usabilidad.
+                        </p>
+                        <a href="https://broko-de.github.io/cac-movies-integration/" target="_blank"
+                            rel="noopener noreferrer" role="link"
+                            class="inline-flex items-center justify-center gap-2 px-4 py-1 transition border border-gray-600 rounded-full bg-gray-800 text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-100 hover:border-gray-300 hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                            <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 15l6 -6" />
+                                <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                                <path
+                                    d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+                            </svg>
+                            Vista previa
+                        </a>
+                        <a href="https://github.com/broko-de/cac-movies-integration" target="_blank" role="link"
+                            rel="noopener noreferrer" role="link"
+                            class="inline-flex items-center justify-center gap-2 px-4 py-1 transition border border-gray-600 rounded-full bg-gray-800 text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-100 hover:border-gray-300 hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                            <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                                </path>
+                            </svg>
+                            Código
+                        </a>
+                    </div>
+                </div>
+
+                <div class="block rounded-lg shadow-secondary-1 bg-slate-900 ">
+                    <div class="relative overflow-hidden bg-cover bg-no-repeat">
+                        <img class="rounded-t-lg object-cover object-center w-full h-56 " src="./images/proyecto_2.webp"
+                            alt="Mi primer proyecto" />
+                        <a href="https://broko-de.github.io/grid-example/" target="_blank">
+                            <div
+                                class="absolute bottom-0 left-0 right-0 top-0 h-full w-full overflow-hidden bg-[hsla(0,0%,98%,0.15)] bg-fixed opacity-0 transition duration-300 ease-in-out hover:opacity-100">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="p-6 text-surface text-white">
+                        <h4 class="mb-2 text-2xl font-bold text-yellow-200">Grilla de imagenes</h4>
+                        <p class="mb-4 text-base">
+                            Ejemplo de diseño web responsivo utilizando CSS Grid, destacando organización, adaptabilidad y buenas prácticas en maquetación para crear estructuras modernas y funcionales.
+                        </p>
+                        <a href="https://broko-de.github.io/grid-example/" target="_blank" rel="noopener noreferrer"
+                            role="link"
+                            class="inline-flex items-center justify-center gap-2 px-4 py-1 transition border border-gray-600 rounded-full bg-gray-800 text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-100 hover:border-gray-300 hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                            <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M9 15l6 -6" />
+                                <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" />
+                                <path
+                                    d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" />
+                            </svg>
+                            Vista previa
+                        </a>
+                        <a href="https://github.com/broko-de/grid-example" target="_blank" rel="noopener noreferrer"
+                            role="link"
+                            class="inline-flex items-center justify-center gap-2 px-4 py-1 transition border border-gray-600 rounded-full bg-gray-800 text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-100 hover:border-gray-300 hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                            <svg class="size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                                </path>
+                            </svg>
+                            Código
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="container mx-auto flex justify-center pt-8">
+                <a href="https://github.com/broko-de/grid-example" target="_blank" rel="noopener noreferrer"
+                    role="link"
+                    class="inline-flex items-center justify-center gap-2 px-4 py-1 transition border border-gray-600 rounded-full bg-gray-800 text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-100 hover:border-gray-300 hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                    Ver más
+                </a>
+            </div> -->
+        </section>
+
+        <section id="about" data-aos="fade-down-left" class="py-2 mx-auto container lg:max-w-4xl md:max-w-2xl ">
+            <h2 class="text-4xl font-bold text-left text-white mb-8">Sobre mi</h2>
+            <div
+                class="flex flex-col md:flex-row items-center justify-center gap-8 text-white ">
+                <div
+                    class="[&>p]:mb-4 [&>p>strong]:text-yellow-200  [&>p>strong]:font-medium  text-pretty order-2 md:order-1">
+                    <p>
+                        Me llamo Fulanito, mi interes por la programación comenzó en mis años de secundaria, explorando el desarrollo web por curiosidad. 
+                        Hoy en día, soy estudiante avanzado en la carrera de Analista Programador y cuento con <strong>más de 3 años de experiencia en desarrollo Full Stack</strong>.
+                    </p>
+                    <p>
+                        He trabajado en diversos proyectos, desde la creación de plataformas web dinámicas hasta aplicaciones empresariales completas. 
+                        Uno de mis mayores logros ha sido colaborar en el desarrollo de soluciones escalables que impactaron positivamente la productividad de los equipos con los que trabajé.
+                    </p>
+                    <p>
+                        Además, disfruto <strong>compartir mi conocimiento con la comunidad tecnológica</strong>.
+                        Mi objetivo es seguir aprendiendo y contribuir al desarrollo de proyectos innovadores.
+                    </p>
+                </div> 
+                <img  src="./images/foto.png" alt="Fulanito Cosme"
+                    class="w-52 order-1 object-cover  p-1 md:order-2 rotate-6 lg:p-2 lg:w-64  rounded-full bg-yellow-500/5 ring-4 ring-white/20 "
+                >
+            </div>
+        </section>
+
+    </main>
+    <footer
+        class="m-4 min-[375px]:pl-4 md:pl-0 mt-16 w-full mx-auto container lg:max-w-4xl md:max-w-2xl mb-10 flex justify-center">
+        <div class="rounded-lg w-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between py-4"> <span
+                class="text-sm sm:text-center text-white">© 2024 <a
+                    href="https://fulanito.dev/" class="hover:underline">fulanito</a>
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-white sm:mt-0">
+                <li> <a href="/#about" class="hover:underline me-4 md:me-6">Sobre mí</a> </li>
+                <li> <a id="contacto" href="mailto:fulanito@cosme.com" class="hover:underline">Contacto</a> </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
