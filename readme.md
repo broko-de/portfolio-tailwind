@@ -42,7 +42,7 @@ Antes de clonar este repositorio, asegúrate de contar con:
 
 1. **Clona el repositorio**:
    ```bash
-   git clone https://github.com/tu-usuario/portfolio-tailwind.git
+   git clone https://github.com/broko-de/portfolio-tailwind.git
    ```
 2. **Accede al directorio del proyecto**:
     ```bash
